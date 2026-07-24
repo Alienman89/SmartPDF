@@ -39,17 +39,23 @@ ollama pull nomic-embed-text
 ```
 
 # 1. Sklonuj repozytorium
+```bash
 git clone [https://github.com/Alienman89/SmartPDF.git](https://github.com/Alienman89/SmartPDF.git)
 cd SmartPDF
-
+```
 # 2. Utwórz i aktywuj środowisko wirtualne
+```bash
 python -m venv .venv
-
+```
 # Windows (PowerShell):
+```bash
 .\.venv\Scripts\Activate.ps1
-
+```
 # Linux / macOS:
+```bash
 source .venv/bin/activate
-
+```
 # 3. Zainstaluj wymagane pakiety
+```bash
 pip install -r requirements.txt
+```
