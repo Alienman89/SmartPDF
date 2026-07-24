@@ -1,0 +1,12 @@
+# Środowisko wirtualne
+.venv/
+venv/
+.idea/
+
+# Baza danych wektorowych i pamięć podręczna
+chroma_db/
+__pycache__/
+
+# Pliki tymczasowe i PDF-y
+*.pdf
+.DS_Store
