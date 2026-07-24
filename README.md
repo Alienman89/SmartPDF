@@ -38,6 +38,8 @@ ollama pull llama3.2
 ollama pull nomic-embed-text
 ```
 
+### 2. Klonowanie Repozytorium i Środowisko
+
 # 1. Sklonuj repozytorium
 ```bash
 git clone [https://github.com/Alienman89/SmartPDF.git](https://github.com/Alienman89/SmartPDF.git)
@@ -58,4 +60,10 @@ source .venv/bin/activate
 # 3. Zainstaluj wymagane pakiety
 ```bash
 pip install -r requirements.txt
+```
+
+### 3. Uruchomienie Aplikacji
+
+```bash
+python -m streamlit run app.py
 ```
