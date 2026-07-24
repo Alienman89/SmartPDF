@@ -29,7 +29,7 @@ Lokalny asystent AI służący do inteligentnej analizy i odpytywania dokumentó
 
 ## 🚀 Instrukcja Uruchomienia Lokalnie
 
-### 1. Wymagania Wstępne
+# 1. Wymagania Wstępne
 Upewnij się, że masz zainstalowany program **[Ollama](https://ollama.com/)**.
 Pobierz wymagane modele lokalne w terminalu:
 
@@ -38,31 +38,31 @@ ollama pull llama3.2
 ollama pull nomic-embed-text
 ```
 
-### 2. Klonowanie Repozytorium i Środowisko
+# 2. Klonowanie Repozytorium i Środowisko
 
-# 1. Sklonuj repozytorium
+### 1. Sklonuj repozytorium
 ```bash
 git clone [https://github.com/Alienman89/SmartPDF.git](https://github.com/Alienman89/SmartPDF.git)
 cd SmartPDF
 ```
-# 2. Utwórz i aktywuj środowisko wirtualne
+### 2. Utwórz i aktywuj środowisko wirtualne
 ```bash
 python -m venv .venv
 ```
-# Windows (PowerShell):
+#### Windows (PowerShell):
 ```bash
 .\.venv\Scripts\Activate.ps1
 ```
-# Linux / macOS:
+#### Linux / macOS:
 ```bash
 source .venv/bin/activate
 ```
-# 3. Zainstaluj wymagane pakiety
+### 3. Zainstaluj wymagane pakiety
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Uruchomienie Aplikacji
+# 3. Uruchomienie Aplikacji
 
 ```bash
 python -m streamlit run app.py
