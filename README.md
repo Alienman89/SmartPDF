@@ -2,8 +2,6 @@
 
 Lokalny asystent AI służący do inteligentnej analizy i odpytywania dokumentów PDF. Projekt wykorzystuje architekturę **RAG (Retrieval-Augmented Generation)**, działając w **100% lokalnie i prywatnie** bez wysyłania danych do zewnętrznych chmur czy płatnych API.
 
-> **Projekt zrealizowany w ramach portfolio (Akademia WIT).**
-
 ---
 
 ## 🛠️ Stack Technologiczny
